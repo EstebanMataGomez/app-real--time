@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Perfil",
+        "icon": "fa-user",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Configuración",
+        "icon": "fa-cogs",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Actividad",
+        "icon": "fa-list",
+        "color": "text-gray-400"
+    },
+    {
+        "title": "Cerrar sesión",
+        "icon": "fa-sign-out-alt",
+        "color": "text-gray-400"
+    }
+]
