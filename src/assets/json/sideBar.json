@@ -1,0 +1,61 @@
+[
+  {
+    "section":"",
+    "title":"Dashboard",
+    "icon":"fa-tachometer-alt",
+    "items": []
+  },
+  {
+    "section":"interface",
+    "title":"Components",
+    "icon":"fa-cog",
+    "items":[
+      {
+        "subTitle":"Custom Components",
+        "subItems":[
+          {
+            "title":"Buttons",
+            "icon":""
+          },
+          {
+            "title":"Cards",
+            "icon":""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "section":"addons",
+    "title":"Pages",
+    "icon":"fa-folder",
+    "items":[
+      {
+        "subTitle":"Login screens",
+        "subItems":[
+          {
+            "title":"Login",
+            "icon":""
+          },
+          {
+            "title":"Register",
+            "icon":""
+          }
+        ]
+      },
+      {
+        "subTitle":"Other pages",
+        "subItems":[
+          {
+            "title":"404 Page",
+            "icon":""
+          },
+          {
+            "title":"Blank page",
+            "icon":""
+          }
+        ]
+      }
+    ]
+  }
+]

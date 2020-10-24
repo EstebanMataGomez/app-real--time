@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainTopBarMenuService } from './services/core/main-top-bar-menu.service';
+import { SidebarService } from './services/core/sidebar.service';
 
 declare var App:any;
 
@@ -10,7 +11,7 @@ declare var App:any;
 })
 export class AppComponent implements OnInit{
 
-  constructor(private MenuSvc: MainTopBarMenuService){
+  constructor(private MenuSvc: MainTopBarMenuService, private SidebarSvc: SidebarService){
 
   }
 
@@ -19,6 +20,8 @@ export class AppComponent implements OnInit{
   periodo: number = 2020;
 
   menuItems:any[] = [];
+  sidebarItems:any[] = [];
+
 
   ngOnInit(){
     //Load SideBar Script
@@ -30,6 +33,10 @@ export class AppComponent implements OnInit{
     this.MenuSvc.getItemsMenu().subscribe((data:any)=>{
       //Async
       this.menuItems = data;
+    });
+
+    this.SidebarSvc.getItemsSidebar().subscribe((data:any)=>{
+      this.sidebarItems = data;
     });
   }
 
