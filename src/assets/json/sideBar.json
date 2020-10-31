@@ -3,6 +3,7 @@
     "section":"",
     "title":"Dashboard",
     "icon":"fa-tachometer-alt",
+    "route": [],
     "items": []
   },
   {
@@ -15,11 +16,13 @@
         "subItems":[
           {
             "title":"Buttons",
-            "icon":""
+            "icon":"",
+            "route": ["componets/buttons"]
           },
           {
             "title":"Cards",
-            "icon":""
+            "icon":"",
+            "route": ["componets/cards"]
           }
         ]
       }
@@ -39,7 +42,8 @@
           },
           {
             "title":"Register",
-            "icon":""
+            "icon":"",
+            "route": ["componets/register"]
           }
         ]
       },
